@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		107F91AD27799C40004B5238 /* Tvn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* Tvn.swift */; };
-		10AB4CA427799D6E001ECB52 /* RCTAgoraRtcChannelModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB4C8D27799D6E001ECB52 /* RCTAgoraRtcChannelModule.swift */; };
+		10AB4CA427799D6E001ECB52 /* RCTTVNRtcChannelModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB4C8D27799D6E001ECB52 /* RCTTVNRtcChannelModule.swift */; };
 		10AB4CA527799D6E001ECB52 /* PromiseCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB4C8F27799D6E001ECB52 /* PromiseCallback.swift */; };
 		10AB4CA627799D6E001ECB52 /* RCTAgoraRtcEngineModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB4C9027799D6E001ECB52 /* RCTAgoraRtcEngineModule.swift */; };
 		10AB4CA727799D6E001ECB52 /* RCTAgoraRtcSurfaceViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB4C9127799D6E001ECB52 /* RCTAgoraRtcSurfaceViewManager.swift */; };
@@ -41,7 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		10AB4C8D27799D6E001ECB52 /* RCTAgoraRtcChannelModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTAgoraRtcChannelModule.swift; sourceTree = "<group>"; };
+		10AB4C8D27799D6E001ECB52 /* RCTTVNRtcChannelModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTTVNRtcChannelModule.swift; sourceTree = "<group>"; };
 		10AB4C8E27799D6E001ECB52 /* RCTAgora-bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTAgora-bridging-header.h"; sourceTree = "<group>"; };
 		10AB4C8F27799D6E001ECB52 /* PromiseCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromiseCallback.swift; sourceTree = "<group>"; };
 		10AB4C9027799D6E001ECB52 /* RCTAgoraRtcEngineModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTAgoraRtcEngineModule.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		10AB4C8C27799D6E001ECB52 /* React */ = {
 			isa = PBXGroup;
 			children = (
-				10AB4C8D27799D6E001ECB52 /* RCTAgoraRtcChannelModule.swift */,
+				10AB4C8D27799D6E001ECB52 /* RCTTVNRtcChannelModule.swift */,
 				10AB4C8E27799D6E001ECB52 /* RCTAgora-bridging-header.h */,
 				10AB4C8F27799D6E001ECB52 /* PromiseCallback.swift */,
 				10AB4C9027799D6E001ECB52 /* RCTAgoraRtcEngineModule.swift */,
@@ -201,7 +201,7 @@
 			files = (
 				10AB4CA627799D6E001ECB52 /* RCTAgoraRtcEngineModule.swift in Sources */,
 				10AB4CB327799D6E001ECB52 /* RtcChannel.swift in Sources */,
-				10AB4CA427799D6E001ECB52 /* RCTAgoraRtcChannelModule.swift in Sources */,
+				10AB4CA427799D6E001ECB52 /* RCTTVNRtcChannelModule.swift in Sources */,
 				10AB4CA827799D6E001ECB52 /* RCTAgoraRtcSurfaceViewManagerBridge.m in Sources */,
 				10AB4CB427799D6E001ECB52 /* Callback.swift in Sources */,
 				107F91AD27799C40004B5238 /* Tvn.swift in Sources */,
