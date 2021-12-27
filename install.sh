@@ -4,7 +4,7 @@ libs="ios/RCTAgora/Libs"
 
 mkdir -p $temp
 
-version=$(grep "AgoraRtcEngine_iOS" react-native-tvn.podspec | grep -o '\d.\d.\d' | sed 's/\./_/g')
+version=$(grep "RtcEngine_iOS" react-native-tvn.podspec | grep -o '\d.\d.\d' | sed 's/\./_/g')
 echo $zipName "$version"
 
 if [ ! -f $temp/$zipName"$version".zip ]; then
